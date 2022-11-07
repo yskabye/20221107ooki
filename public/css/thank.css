@@ -1,0 +1,25 @@
+.message{
+  width:100% ;
+  text-align: center;
+  margin-top: calc(33% - 200px) ;
+}
+
+.message__msg{
+  font-size:17px ;
+  display:block;
+}
+
+.message__lnk{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 800;
+  background: black ;
+  color:white;
+  border-radius: 5px;
+  border: 1px #0f0f0f solid;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}

@@ -1,0 +1,77 @@
+.confirm{
+  margin: 10px auto;
+  width: 500px;
+}
+
+.confirm__tle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 20px ;
+}
+
+.confirm__line {
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.confirm__line-label{
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px; 
+  display:inline-block ;
+}
+
+.confirm__line-mark {
+  padding-right:5px;
+  font-size:12px
+}
+
+/* ご意見 */
+
+.contact__opinion {
+  padding: 25px 0 ;
+  display: flex;
+}
+
+.confirm__opinion-label {
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+  display: inline-block;
+}
+
+.confirm__opinion-opnion {
+  width: 380px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+/* ボタン */
+
+.confirm__submit{
+  width: 100%;
+  margin: 30px auto 0px;
+  text-align: center;
+}
+
+.content__submit-btn{
+  padding: 5px 25px;
+  background: #303030;
+  color:white;
+  border-radius: 5px;
+  width: 100px;
+  display:block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content__submit-btn:hover {
+  background: #00008b;;
+  color: white;
+}
+
+.content__back-btn{
+  font-size: 13px;
+}

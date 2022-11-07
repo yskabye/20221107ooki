@@ -1,0 +1,233 @@
+.contact{
+  margin: 10px auto;
+  width: 500px;
+}
+
+.contact__tle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 5px ;
+}
+
+.contact__cause{
+  text-align: right;
+  font-size: 10px;
+  color: red;
+}
+
+.contact__line {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact__line-labelr{
+  font-size: 13px;
+  font-weight: bold;
+  width: 110px; 
+  display:inline-block ;
+}
+
+.contact__line-labelr::after{
+  content: "※";
+  color: red;
+  font-size: 8px;
+  vertical-align: top;
+}
+
+.contact__line-labela {
+  font-size: 13px;
+  font-weight: bold;
+  width: 110px;
+  display: inline-block;
+}
+
+.contact__line input[name='hname']{
+  width: 183px;
+}
+
+.contact__line input[name='fname'] {
+  margin-left:10px;
+  width: 183px;
+}
+
+.contact__line-mark {
+  padding-right:5px;
+  font-size:12px
+}
+
+.contact__line input[name="post_no"] {
+  width: 300px;
+}
+
+.contact__line input{
+  border:1px silver solid ;
+  border-radius: 5px;
+  height: 30px;
+  width: 380px;
+}
+
+/* 性別 */
+
+.contact__gender {
+  padding: 10px 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact__gender-labelr {
+  font-size: 13px;
+  font-weight: bold;
+  width: 110px;
+  display: inline-block;
+}
+
+.contact__gender-labelr::after {
+  content: "※";
+  color: red;
+  font-size: 8px;
+  vertical-align: top;
+}
+
+input[type='radio'] {
+  /*width: 50px;
+  accent-color: white;
+  border: 2px gray solid;
+  margin-top: -2px;
+  font-size: 13px;
+  transform: scale(2.0);*/
+  display:none;
+}
+
+.contact__gender-sex{
+  /*margin-left: -10px;
+  margin-right: 10px;
+  display: inline;*/
+  color: black;
+  font-size: 13px;
+  position: relative;      /* ボックスの位置を指定する */
+  padding: 0 0 0 42px;   /* ボックス内側の余白を指定する */
+}
+
+.contact__gender-sex:after,
+.contact__gender-sex:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+}
+
+.contact__gender-sex:after {
+  left: 15px;
+  margin-top: -10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.contact__gender-sex:before {
+  left: 20px;
+  margin-top: -5px;
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+input[type='radio']:checked+.contact__gender-sex:before {
+  opacity: 1;
+}
+
+.contact__gender-sex:hover:after {
+  border-color: gray;
+}
+
+
+/* 入力例 */
+
+.contact__exam {
+  padding: 7px 0 10px;
+  display: flex ;
+}
+
+.contact__exam-dmy {
+  width: 110px;
+  display: inline-block;
+}
+
+.contact__exam-mark {
+  width: 30px;
+  display:inline-block;
+}
+
+.contact__exam-ex1{
+  font-size: 12px;
+  color: silver;
+  margin: 0 0 0 20px;
+  width: 183px;
+}
+
+.contact__exam-ex2 {
+  font-size: 12px;
+  color: silver;
+  margin: 0 0 0 20px;
+  width: 183px;
+}
+
+.contact__exam-ex{
+  font-size: 12px;
+  color: silver ;
+  margin: 0 0 0 40px;
+  width: 100%;
+}
+
+/* ご意見 */
+
+.contact__opinion {
+  padding: 10px 0;
+  display: flex;
+}
+
+.contact__opinion textarea {
+  border: 1px silver solid;
+  border-radius: 5px;
+  width: 380px;
+  height: 100px;
+}
+
+/* エラーメッセージ */
+.contact__error{
+  color: red;
+  font-size: 15px;
+  font-weight: 700;
+}
+.contact__error  li{
+  margin-left: 25px;
+  padding: 2px 0;
+  line-height: 17px;
+}
+
+/* ボタン */
+
+.contact__submit{
+  width: 100%;
+  margin: 30px auto 0px;
+  text-align: center;
+}
+
+.content__submit-btn{
+  padding: 5px 25px;
+  background: #303030;
+  color:white;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.content__submit-btn:hover {
+  background: #00008b;
+  color: white;
+}
+

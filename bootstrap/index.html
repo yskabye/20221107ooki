@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/research.css">
+  <title>お問い合わせ</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1 class="header__tle">管理システム</h1>
+      <form method="post" action="./search" class="header__form">
+        <div class="header__form-line">
+          <label class="header__form-line-lbl">お名前</label>
+          <input rname="name" type="text" />
+
+          <label class="header__form-line-lbl1r">性別</label>
+          <input name="gender" type="radio" id="gender_all" value="0" checked>
+          <label class="header__form-line-gender" for="gender_all">全て</label>
+          <input name="gender" type="radio" id="gender_man" value="1">
+          <label class="header__form-line-gender" for="gender_man">男性</label>
+          <input name="gender" type="radio" id="gender_lady" value="2">
+          <label class="header__form-line-gender" for="gender_lady">女性</label>
+          <input name="gender" type="radio" id="gender_etc" value="9">
+          <label class="header__form-line-gender" for="gender_etc">その他</label>
+        </div>
+
+        <div class="header__form-line">
+          <label class="header__form-line-lbl">登録日</label>
+          <input type="date" name="str_date">
+          <label class="header__form-line-lbl2r">〜</label>
+          <input type="date" name="end_date">
+        </div>
+
+        <div class="header__form-line">
+          <label class="header__form-line-lbl">メールアドレス</label>
+          <input name="email" type="email">
+        </div>
+
+        <div class="header__form-btn">
+          <button type="submit" class="header__form-btn-submit">検 索</button>
+          <a href="#" class="header__form-btn-reset">リセット</a>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__header">
+      <div class="main__header-numbs">
+        <p>前35件中</p>
+        <p>11〜20件</p>
+      </div>
+      <div class="main__header-numbs-right">
+        <a href="#">＜</a>
+        <a href="#">1</a>
+        <a href="javascript:void(0)" class="main__header-numbs-right-sel" >2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">＞</a>
+      </div>
+    </div>
+    <div class="main__thead">
+      <p>ID</p>
+      <p>お名前</p>
+      <p>性別</p>
+      <p>メールアドレス</p>
+      <p>ご意見</p>
+      <p>&nbsp;</p>
+    </div>
+    <hr class="main__uline">
+    <div class="main__table">
+      <form>
+        <p>1</p>
+        <p>山田 太郎</p>
+        <p>男性</p>
+        <p>test@example.com</p>
+        <p>いつもお世話になっております。先日、貴社製品を購入...</p>
+        <p><button>削除</button></p>
+      </form>
+    </div>
+        <div class="main__table">
+          <form>
+            <p>1</p>
+            <p>山田 太郎</p>
+            <p>男性</p>
+            <p>test@example.com</p>
+            <p>いつもお世話になっております。先日、貴社製品を購入...</p>
+            <p><button>削除</button></p>
+          </form>
+        </div><div class="main__table">
+          <form>
+            <p>1</p>
+            <p>山田 太郎</p>
+            <p>男性</p>
+            <p>test@example.com</p>
+            <p>いつもお世話になっております。先日、貴社製品を購入...</p>
+            <p><button>削除</button></p>
+          </form>
+        </div><div class="main__table">
+          <form>
+            <p>1</p>
+            <p>山田 太郎</p>
+            <p>男性</p>
+            <p>test@example.com</p>
+            <p>いつもお世話になっております。先日、貴社製品を購入...</p>
+            <p><button>削除</button></p>
+          </form>
+        </div><div class="main__table">
+          <form>
+            <p>1</p>
+            <p>山田 太郎</p>
+            <p>男性</p>
+            <p>test@example.com</p>
+            <p>いつもお世話になっております。先日、貴社製品を購入...</p>
+            <p><button>削除</button></p>
+          </form>
+        </div>
+
+  </main>
+  
+  </body>
+
+</html>
